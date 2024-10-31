@@ -1,0 +1,32 @@
+#openingtimes-tab a {
+    display: block;
+    height: 92px;
+    width: 79px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 31px;
+    margin: 5px 0 0;
+    text-align: center;
+    display: block;
+	
+}
+    
+    
+#openingtimes-tab a{
+    -webkit-transform: rotate(270deg);  
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);  
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.otFooter{
+	
+	border-top: 1px solid white;
+	background: #F5F5F5;
+	border-radius: 2px;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+	
+}

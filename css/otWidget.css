@@ -1,0 +1,94 @@
+
+#dialog-openingtime {
+     
+     visibility: hidden;
+     position: fixed;
+     max-width: 400px;
+     width:100%;
+     height:75%;
+     z-index: 1000;
+     text-align:center;
+	 top: 0;
+	 left: 0;
+	 bottom:0;
+	 right:0;
+	 margin:auto;
+	 padding: .2em;
+	 outline: 0;
+	 background-color: #ffffff;
+	 border-bottom-right-radius: 4px;
+     border-bottom-left-radius: 4px;
+     border-top-right-radius: 4px;
+     border-top-left-radius: 4px;
+	
+	 display: block;
+     text-align:center;
+     background: #ffffff url(images/ui-bg_flat_75_ffffff_40x100.png) 50% 50% repeat-x;
+	 color: #222222;
+	 border: 1px solid #aaaaaa;
+	 
+	 -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+	
+}
+
+
+#OToverlay{
+	
+	background: #000 ;
+	opacity: .5;
+	filter: Alpha(Opacity=30);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+}
+
+
+.closeOtButton{
+	
+	width: 23px;
+	height: 23px;
+	background: #d94412;
+	background: -webkit-linear-gradient(top, #d94412 0%, #e05d22 100%);
+	background: linear-gradient(to bottom, #d94412 0%, #e05d22 100%);
+	border: none;
+	border-top: 0 solid #d94412;
+	padding: 0 0 0;
+}
+
+.closeOtButton:hover, .closeOtButton:focus, .closeOtButton:active, .closeOtButton.active, .closeOtButton.disabled, .closeOtButton[disabled] {
+	
+	width: 23px;
+	height: 23px;
+	background: #d94412;
+	background: -webkit-linear-gradient(top, #d94412 0%, #e05d22 100%);
+	background: linear-gradient(to bottom, #d94412 0%, #e05d22 100%);
+	border: none;
+	border-top: 0px solid #b93207;
+	padding: 0 0 0;
+}
+
+#ot-loading {
+
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    display: block;
+    opacity: 0.8;
+    background-color: #fff;
+    z-index: 1;
+    text-align: center;
+}
+
+#ot-loading-image {
+
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    z-index: 1;
+}
